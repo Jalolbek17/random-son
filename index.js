@@ -39,7 +39,7 @@ function javobTekshir(){
     jonlar--;
     xatolar++;
     ketmaKetXato++;
-    holat.textContent = "Noto‘g‘ri";
+    holat.textContent = "Notogri";
 
     if(ketmaKetXato === 3){
         qiyinRejimIshladi = true;
