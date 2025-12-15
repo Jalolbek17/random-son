@@ -3,7 +3,6 @@ let jonlar = 3;
 let urinishlar = 0;
 let xatolar = 0;
 let ketmaKetXato = 0;
-let qiyinRejimIshladi = false;
 let yashirinSon = 0;
 
 function qavatBoshlash(){
@@ -42,7 +41,6 @@ function javobTekshir(){
     holat.textContent = "Notogri";
 
     if(ketmaKetXato === 3){
-        qiyinRejimIshladi = true;
         ketmaKetXato = 0;
         qavat = qavat > 1 ? qavat - 1 : 1;
         holat.textContent = "3 marta adashdingiz  pastga tushdingiz";
@@ -58,7 +56,6 @@ function oyinTugat(xabar){
         Urinishlar: ${urinishlar}<br>
         Xatolar: ${xatolar}<br>
         Qolgan jonlar: ${jonlar}<br>
-        Qiyin rejim: ${qiyinRejimIshladi ? "ishladi" : "yoq"}
     `;
 }
 
